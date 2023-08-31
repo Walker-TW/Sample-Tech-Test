@@ -1,0 +1,26 @@
+.main {
+    height: 100vh;
+    max-width: 80rem;
+    align-items: center;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+}
+
+.filterInput {
+    display: flex;
+    align-items: center;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
